@@ -49,7 +49,7 @@ The project consists of four main tasks:
   - Used **DPOTrainer** from Hugging Face.
   - Experimented with different **hyperparameters** for optimization.
   - Monitored **training loss** and **evaluation metrics**.
-- **Pre-trained Model:** **GPT-2 model** from Hugging Face.
+- **Pre-trained Model:** **GPT-2 model**.
 - **Hyperparameters:**
     ```python
     hyperparams = [
@@ -113,9 +113,9 @@ The project consists of four main tasks:
 ### Task 4: Web Application Development
 - **Objective:** Create a simple web app where users can input text and receive preference-based responses.
 - **Features:**
-  - Accepts **user input** for ranking or decision-making tasks.
+  - Accepts **user input** for human preference optimization.
   - Processes input using the **fine-tuned DPO model**.
-  - Displays **model predictions** on human preference ranking.
+  - Displays **model predictions** on human preference.
 - **Technologies Used:**
   - **Backend:** Flask, PyTorch, Transformers
   - **Frontend:** HTML, Bootstrap
